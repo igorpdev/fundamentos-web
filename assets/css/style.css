@@ -64,6 +64,17 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.texto-esquerda {
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: 18px;
+    color: #436291;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 20%;
+    padding-right: 10px;
+  }
+
 .texto-footer {
   text-align: center;
   font-size: 14px;
@@ -74,7 +85,6 @@ body {
 
 .container {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
 }
 
@@ -87,6 +97,11 @@ body {
 .imagens {
   border-radius: 10px;
 }
+
+.imagens-direita {
+    border-radius: 10px;
+    align-items: flex-end;
+  }
 
 /* Estilização da página contato.html*/
 
