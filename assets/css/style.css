@@ -1,0 +1,97 @@
+/* Estilização da página index.html */
+
+body {
+  background: rgb(216, 216, 213);
+}
+
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+#menu {
+  background: #d4d4d4;
+  background: linear-gradient(to bottom, #d4d4d4, #b5b5b5);
+  color: #fff;
+  height: 45px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu li {
+  display: inline;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-inline: 20px;
+}
+
+#menu li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.titulos {
+  text-align: center;
+  font-size: 24;
+  color: #436291;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.texto {
+  text-align: center;
+  font-size: 18px;
+  color: #436291;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.texto-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #436291;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tm-sociais {
+  width: 50px;
+  height: 50px;
+  padding-left: 15px;
+}
+
+.imagens {
+  border-radius: 10px;
+}
+
+/* Estilização da página contato.html*/
+
+.center {
+  justify-content: center;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
